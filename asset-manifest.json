@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/web-pharmacy/static/css/main.9d4a6ad7.css",
+    "main.js": "/web-pharmacy/static/js/main.a173a881.js",
+    "static/media/logo.png": "/web-pharmacy/static/media/logo.46a8e16fdb4a31a9ac3e.png",
+    "index.html": "/web-pharmacy/index.html",
+    "main.9d4a6ad7.css.map": "/web-pharmacy/static/css/main.9d4a6ad7.css.map",
+    "main.a173a881.js.map": "/web-pharmacy/static/js/main.a173a881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d4a6ad7.css",
+    "static/js/main.a173a881.js"
+  ]
+}
