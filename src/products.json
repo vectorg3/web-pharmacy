@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Анаферон детский",
+        "description": "Таблетки для рассасывания, 20 шт. - упаковки ячейковые контурные - пачки картонные",
+        "price": "103",
+        "full_background": "https://apteka-lekfarm.ru/wa-data/public/shop/products/59/19/111959/images/25061/25061.750x0.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Уголь активированный",
+        "description": "Таблетки 250 мг, 10 шт. - упаковки безъячейковые контурные",
+        "price": "4",
+        "full_background": "https://apteka.lekafarm.ru/img/catalog/c11819.png"
+    },
+    {
+        "id": 3,
+        "name": "Амиодарон",
+        "description": "Таблетки 200 мг, 30 шт. - банки темного стекла - пачки картонные",
+        "price": "33",
+        "full_background": "https://medknsltant.com/wp-content/uploads/2019/05/post_5bf55bb0350be.png"
+    },
+    {
+        "id": 4,
+        "name": "Нистатин",
+        "description": "Таблетки покрытые оболочкой 500 000 ЕД, 10 шт. -упаковки ячейковые контурные (150) - коробки картонные",
+        "price": "810",
+        "full_background": "https://static.zdravcity.ru/upload/iblock/fe5/photo_es_55C869CE-C591-40C6-B6CC-3B049CEE3CA3.jpg"
+    }
+    ,
+    {
+        "id": 5,
+        "name": "Цитрамон",
+        "description": "Таблетки светло-коричневого цвета с вкраплениями, с запахом какао, плоскоцилиндрические, с фаской, с риской на одной стороне и маркировкой «R» или без нее - на другой.",
+        "price": "117",
+        "full_background": "https://images.apteka.ru/medium_d69223cd-e328-4c96-ac03-3155ca9d2f9e.webp"
+    }
+    ,
+    {
+        "id": 6,
+        "name": "Панкреатин",
+        "description": "Капсулы кишечнорастворимые 22.5+25+1.25 тыс.Ед.Евр.Ф., 20 шт. - флаконы темного стекла - пачки картонные",
+        "price": "431",
+        "full_background": "https://images.apteka.ru/medium_42019489-204e-492a-b3b7-69ed83701a27.webp"
+    }
+    ,
+    {
+        "id": 7,
+        "name": "Пенталгин",
+        "description": "Таблетки, покрытые пленочной оболочкой от светло-зеленого до зеленого цвета, двояковыпуклые в форме капсулы со скошенными краями, с риской на одной стороне и тиснением PENTALGIN на другой",
+        "price": "159",
+        "full_background": "https://images.apteka.ru/medium_3f8ed845-269c-430b-9e96-dde43a01db92.webp"
+    }
+    ,
+    {
+        "id": 8,
+        "name": "Тауфон",
+        "description": "Прозрачная бесцветная жидкость.",
+        "price": "156",
+        "full_background": "https://images.apteka.ru/medium_bc80a19a-5bbb-4174-bd9f-3c63ed9e7d0f.webp"
+    }
+]

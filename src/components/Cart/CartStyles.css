@@ -1,0 +1,112 @@
+body {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+.cart__item {
+    font-size: 18px;
+}
+.cart__item-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.remove-item {
+    margin-top: 0.8rem;
+}
+.cart__quantity {
+    padding: 2px 5px;
+    background-color: #80cbc4;
+    border-radius: 100px;
+}
+.cart {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 5;
+    padding: 1rem;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+
+    background-color: #37a3a5;
+    transition: .3s;
+}
+.cart:hover{
+    background-color: #4db6ac;
+    transition: .3s;
+    transform: translateY(-5px);
+}
+.cart-quantity {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding-top: 0.2rem;
+    border-radius: 50%;
+}
+
+.cart-list {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 50rem;
+    max-width: 95%;
+    box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+    animation: show 500ms ease-in-out;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.cart-close {
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    color: #fff;
+    right: 0.5rem;
+}
+.cart-delete {
+    cursor: pointer;
+}
+.quantity__btn {
+    display: inline-block;
+    font-size: 26px;
+    width: 2.3rem;
+    height: 2.2rem;
+    text-align: center;
+    padding: 0.35rem 0 0 0;
+    background-color: #37a3a5;
+    color: white;
+    margin: 0 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media (min-width: 767px) {
+    .cart {
+        top: 5rem;
+        bottom: unset;
+    }
+    .cart__item-title{
+        font-size: 18px;
+    }
+}
+@keyframes show {
+    from {
+        top: 70%;
+        opacity: 0;
+    }
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}
