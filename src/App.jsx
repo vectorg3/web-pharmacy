@@ -3,6 +3,7 @@ import AuthPage from './pages/AuthPage';
 import Hero from './components/Hero';
 import fire from './fire';
 import './App.css';
+import { ContextProvider } from './context';
 
 const App = () => {
     const [user, setUser] = useState('');
@@ -21,7 +22,12 @@ const App = () => {
     const handleLogout = () => {
         fire.auth().signOut();
     };
-    return <>{user ? <Hero handleLogout={handleLogout} /> : <AuthPage />}</>;
+    console.log(user);
+    return (
+        <ContextProvider>
+            {user ? <Hero handleLogout={handleLogout} /> : <AuthPage />}
+        </ContextProvider>
+    );
 };
 
 export default App;

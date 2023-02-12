@@ -1,8 +1,10 @@
 import React from 'react';
 import '../Header/Header.css';
-import logo from '../logo.png';
+import { useContext } from 'react';
+import { ShopContext } from '../../context';
 
-function Header({ handleLogout, handleMenuVisible }) {
+function Header({handleLogout}) {
+    const {handleMenuVisible, menuVisible} = useContext(ShopContext);
     return (
         <div className='nav'>
             <div className='nav__wrapper'>
@@ -19,7 +21,7 @@ function Header({ handleLogout, handleMenuVisible }) {
                     style={{ fontSize: 50 }}
                     onClick={handleMenuVisible}
                 >
-                    menu
+                    {menuVisible ? 'close' : 'menu'}
                 </i>
             </div>
         </div>

@@ -2,26 +2,18 @@ import React from 'react';
 import { Header } from './Header/Header';
 import { Shop } from './Shop';
 import { Menu } from './Header/Menu';
-import { useState } from 'react';
+import { useContext } from 'react';
+import { ShopContext } from '../context';
 
-const Hero = ({ handleLogout }) => {
-    const [menuVisible, setMenuVisible] = useState(false);
-    const handleMenuVisible = () => {
-        setMenuVisible(!menuVisible);
-    };
+const Hero = ({ handleLogout}) => {
+    const { menuVisible } = useContext(ShopContext);
     return (
         <>
-            {menuVisible ? (
-                <Menu handleLogout={handleLogout} />
-            ) : (
-                <>
-                    <Header
-                        handleLogout={handleLogout}
-                        handleMenuVisible={handleMenuVisible}
-                    />
-                    <Shop />
-                </>
-            )}
+            <Header handleLogout={handleLogout} />
+            <>
+                <Menu handleLogout={handleLogout}/>
+                <Shop />
+            </>
         </>
     );
 };
